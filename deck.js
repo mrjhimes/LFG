@@ -38,4 +38,4 @@ const AREAS = [
 
 // Reversal rate: probability any given card is drawn reversed.
 // Physical decks naturally produce ~20–30%. Lower = rarer + more meaningful.
-const REVERSAL_RATE = 0.25;
+const REVERSAL_RATE = 0.10;
