@@ -1,0 +1,15 @@
+# Local dev helpers
+serve.py
+
+# Personal notes
+lfg-spec.md
+
+# OS junk that shouldn't be in any repo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
