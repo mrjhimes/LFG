@@ -5,14 +5,14 @@
 // Edit freely; the app reads this file at load.
 
 const DECK = [
-  { n: '0',     name: 'The Fool',           glyph: '☉', up: 'Leap',        rev: 'Hesitation', img: 'cards/RWS_Tarot_00_Fool.jpg',            desc: 'Let go of preconceived ideas; remain open to change' },
-  { n: 'I',     name: 'The Magician',       glyph: '∞', up: 'Agency',      rev: 'Misdirection', img: 'cards/RWS_Tarot_01_Magician.jpg',      desc: 'Trust your inspiration; you are smarter than you think' },
-  { n: 'II',    name: 'The High Priestess', glyph: '☾', up: 'Intuition',   rev: 'Noise',        img: 'cards/RWS_Tarot_02_High_Priestess.jpg', desc: 'Put self-cultivation at the top of your daily priority list' },
-  { n: 'III',   name: 'The Empress',        glyph: '♀', up: 'Abundance',   rev: 'Depletion',    img: 'cards/RWS_Tarot_03_Empress.jpg',        desc: 'Your positive influence has facilitated favorable outcomes; stop measuring yourself against others' },
-  { n: 'IV',    name: 'The Emperor',        glyph: '♃', up: 'Structure',   rev: 'Rigidity',     img: 'cards/RWS_Tarot_04_Emperor.jpg',        desc: 'Draw upon the capable inner resources you possess to get the task completed' },
-  { n: 'V',     name: 'The Hierophant',     glyph: '✝', up: 'Tradition',   rev: 'Dogma',        img: 'cards/RWS_Tarot_05_Hierophant.jpg',     desc: 'Develop your expertise; have faith that you are a master in the making' },
-  { n: 'VI',    name: 'The Lovers',         glyph: '⚭', up: 'Alignment',   rev: 'Conflict',     img: 'cards/RWS_Tarot_06_Lovers.jpg',         desc: 'Creative compromise helps you accept your commitments fully' },
-  { n: 'VII',   name: 'The Chariot',        glyph: '➳', up: 'Drive',       rev: 'Scatter',      img: 'cards/RWS_Tarot_07_Chariot.jpg',        desc: 'Look upon the movements of change as full of promise and adventure' },
+  { n: '0',     name: 'The Fool',           glyph: '☉', up: 'Leap',        rev: 'Hesitation', img: 'cards/RWS_Tarot_00_Fool.jpg',            desc: 'Embrace the unknown; let go of certainty' },
+  { n: 'I',     name: 'The Magician',       glyph: '∞', up: 'Agency',      rev: 'Misdirection', img: 'cards/RWS_Tarot_01_Magician.jpg',      desc: 'Trust in your own power; move from thought to action' },
+  { n: 'II',    name: 'The High Priestess', glyph: '☾', up: 'Intuition',   rev: 'Noise',        img: 'cards/RWS_Tarot_02_High_Priestess.jpg', desc: 'Look inside for guidance; listen for quiet truths' },
+  { n: 'III',   name: 'The Empress',        glyph: '♀', up: 'Abundance',   rev: 'Depletion',    img: 'cards/RWS_Tarot_03_Empress.jpg',        desc: 'Learn from the cycles of creation; soften to receive what nature offers' },
+  { n: 'IV',    name: 'The Emperor',        glyph: '♃', up: 'Structure',   rev: 'Rigidity',     img: 'cards/RWS_Tarot_04_Emperor.jpg',        desc: 'Bring order from chaos; lead with focus and determination' },
+  { n: 'V',     name: 'The Hierophant',     glyph: '✝', up: 'Tradition',   rev: 'Dogma',        img: 'cards/RWS_Tarot_05_Hierophant.jpg',     desc: 'Bridge the earthly and the divine; grow deep roots through ritual' },
+  { n: 'VI',    name: 'The Lovers',         glyph: '⚭', up: 'Alignment',   rev: 'Conflict',     img: 'cards/RWS_Tarot_06_Lovers.jpg',         desc: 'Meaning arises from union; harmony or discord both create something new' },
+  { n: 'VII',   name: 'The Chariot',        glyph: '➳', up: 'Drive',       rev: 'Scatter',      img: 'cards/RWS_Tarot_07_Chariot.jpg',        desc: 'Use momentum to traverse obstacles; inertia works both ways' },
   { n: 'VIII',  name: 'Strength',           glyph: '∞', up: 'Resolve',     rev: 'Doubt',        img: 'cards/RWS_Tarot_08_Strength.jpg',       desc: 'Clearly distinguish between your ego and your intuitive self' },
   { n: 'IX',    name: 'The Hermit',         glyph: '✦', up: 'Reflection',  rev: 'Isolation',    img: 'cards/RWS_Tarot_09_Hermit.jpg',         desc: 'Give yourself time for contemplation; don\'t allow others to stand in your way' },
   { n: 'X',     name: 'Wheel of Fortune',   glyph: '☯', up: 'Cycle',       rev: 'Fixation',     img: 'cards/RWS_Tarot_10_Wheel_of_Fortune.jpg', desc: 'Fundamental change is imminent; the positive benefits you gain could last a long time' },
