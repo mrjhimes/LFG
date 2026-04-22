@@ -19,14 +19,14 @@ const DECK = [
   { n: 'XI',    name: 'Justice',            glyph: '⚖', up: 'Balance',     rev: 'Distortion',   img: 'cards/RWS_Tarot_11_Justice.jpg',        desc: 'Examine the choices at hand; seek fairness and balance' },
   { n: 'XII',   name: 'The Hanged Man',     glyph: '⋔', up: 'Perspective', rev: 'Stalling',     img: 'cards/RWS_Tarot_12_Hanged_Man.jpg',     desc: 'Surrender to external motion; seek progress without resistance' },
   { n: 'XIII',  name: 'Death',              glyph: '☗', up: 'Ending',      rev: 'Clinging',     img: 'cards/RWS_Tarot_13_Death.jpg',          desc: 'End this chapter; disrupt roots and encourage new growth' },
-  { n: 'XIV',   name: 'Temperance',         glyph: '⚗', up: 'Measure',     rev: 'Excess',       img: 'cards/RWS_Tarot_14_Temperance.jpg',     desc: 'Identify and acquire what will most help you complete your mission; leave the rest behind' },
-  { n: 'XV',    name: 'The Devil',          glyph: '⛧', up: 'Attachment',  rev: 'Release',      img: 'cards/RWS_Tarot_15_Devil.jpg',          desc: 'Let go of inhibitions; allow yourself to express all of who you are' },
-  { n: 'XVI',   name: 'The Tower',          glyph: '⚡', up: 'Rupture',     rev: 'Avoidance',    img: 'cards/RWS_Tarot_16_Tower.jpg',          desc: 'You are the one to serve as a catalyst for change' },
-  { n: 'XVII',  name: 'The Star',           glyph: '✧', up: 'Hope',        rev: 'Dimness',      img: 'cards/RWS_Tarot_17_Star.jpg',           desc: 'Your time is better spent in reflection and spiritual pursuit' },
-  { n: 'XVIII', name: 'The Moon',           glyph: '☽', up: 'Mystery',     rev: 'Clarity',      img: 'cards/RWS_Tarot_18_Moon.jpg',           desc: 'Listen to the body and its unique wisdom; rely upon your inner resources for support and security' },
-  { n: 'XIX',   name: 'The Sun',            glyph: '☀', up: 'Vitality',    rev: 'Shadow',       img: 'cards/RWS_Tarot_19_Sun.jpg',            desc: 'Let your light shine; be confident in the sacred power of your original nature' },
-  { n: 'XX',    name: 'Judgement',          glyph: '⚶', up: 'Reckoning',   rev: 'Denial',       img: 'cards/RWS_Tarot_20_Judgement.jpg',      desc: 'Let go of your past; the future welcomes you with a bounty of growth and change' },
-  { n: 'XXI',   name: 'The World',          glyph: '✪', up: 'Wholeness',   rev: 'Incomplete',   img: 'cards/RWS_Tarot_21_World.jpg',          desc: 'Be serene in knowing you are succeeding in your goal' },
+  { n: 'XIV',   name: 'Temperance',         glyph: '⚗', up: 'Measure',     rev: 'Excess',       img: 'cards/RWS_Tarot_14_Temperance.jpg',     desc: 'Seek moderation; explore the alchemy of opposites' },
+  { n: 'XV',    name: 'The Devil',          glyph: '⛧', up: 'Attachment',  rev: 'Release',      img: 'cards/RWS_Tarot_15_Devil.jpg',          desc: 'Confront your shadows; liberation comes from awareness' },
+  { n: 'XVI',   name: 'The Tower',          glyph: '⚡', up: 'Rupture',     rev: 'Avoidance',    img: 'cards/RWS_Tarot_16_Tower.jpg',          desc: 'Revelation brings dramatic change; chaos is a ladder' },
+  { n: 'XVII',  name: 'The Star',           glyph: '✧', up: 'Hope',        rev: 'Dimness',      img: 'cards/RWS_Tarot_17_Star.jpg',           desc: 'Find purpose in peaceful reflection; seek inspiration in the natural order' },
+  { n: 'XVIII', name: 'The Moon',           glyph: '☽', up: 'Mystery',     rev: 'Clarity',      img: 'cards/RWS_Tarot_18_Moon.jpg',           desc: 'Not everything is as it seems; meaning arises from deep mystery' },
+  { n: 'XIX',   name: 'The Sun',            glyph: '☀', up: 'Vitality',    rev: 'Shadow',       img: 'cards/RWS_Tarot_19_Sun.jpg',            desc: 'Joy and light radiate to bring clarity; celebrate and say yes' },
+  { n: 'XX',    name: 'Judgement',          glyph: '⚶', up: 'Reckoning',   rev: 'Denial',       img: 'cards/RWS_Tarot_20_Judgement.jpg',      desc: 'Own your decisions; take responsibility and step forward' },
+  { n: 'XXI',   name: 'The World',          glyph: '✪', up: 'Wholeness',   rev: 'Incomplete',   img: 'cards/RWS_Tarot_21_World.jpg',          desc: 'View the whole scene from afar; the journey ends and begins' },
 ];
 
 // Three positions. Edit labels or blurbs here; order controls left-to-right layout.
